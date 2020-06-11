@@ -98,6 +98,7 @@ Prepend a special char with a backslash `\` to use it as a matching char.
 Caret `^` and Dollar `$`
 - Caret `^` used to specify start symbol of the input string. Ex - String that starts with T is matched by `^T`
 - Dollar `$` used to specify terminating symbol of the input string. Ex - String that ends with e is matched by `e$`
+  - Anchors are expression level. Ex - To look for all files having `.pdf` extensions, we can use: `\.pdf$`
 
 ### Shorthand Character Sets
 |Shorthand|Description|
