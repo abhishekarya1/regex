@@ -26,5 +26,6 @@ Learning regex and solving problems from various sources.
 - [MIT Cheat Sheet](http://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf)
 -
 
-## Resource Lists
+## Resource Lists & References
+- [regular-expressions.info](https://www.regular-expressions.info/)
 - [Awesome Regex - GitHub](https://github.com/aloisdg/awesome-regex)
