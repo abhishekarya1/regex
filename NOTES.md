@@ -4,7 +4,7 @@ Regex pronunciation: "Redj-ex"
 
 ## Regex in programming languages
 
-C++11 onwards (`\<regex\>` header), Python, Java, Javascript, PHP, Java, etc...
+C++11 onwards (`<regex>` header), Python, Java, Javascript, PHP, Java, etc...
 
 ### C++ 
 
@@ -44,19 +44,18 @@ aka Character Class<br><br>
 Specified inside square brackets `[]`
   - No Space : [Example#0](https://www.regexpal.com/?fam=116961)
   - Hyphen : [Example#1](https://www.regexpal.com/?fam=116971)
-<br>
-
+  
 A dot `.` inside a Char class means a literal dot `.`
   - [Example#0](https://www.regexpal.com/?fam=116963)
   - [Example#1](https://www.regexpal.com/?fam=116964)
   
 ### Negated Character Sets
-- Any char/charset written within `[]` and preceded by `^` will be negated.
+Any char/charset written within `[]` and preceded by `^` will be negated.
   - `[^c]ar` : [Example#0](https://www.regexpal.com/?fam=116965)
   - `[^ctpj]` : [Example#1](https://www.regexpal.com/?fam=116966)
   
 ### Repetitions
-- Symbols `*`, `+`, and `?`
+Symbols `*`, `+`, and `?`
   - Asterisk `*` : No. of occurances of char/charset preceding it must be >=0 
     - On single char : [Example#0](https://www.regexpal.com/?fam=116967)
     - On charset : [Example#1](https://www.regexpal.com/?fam=116968)
@@ -70,13 +69,13 @@ A dot `.` inside a Char class means a literal dot `.`
     - [Example#0](https://www.regexpal.com/?fam=116974)
 
 ### Braces
-aka Quantifiers, wrritten only post char/charset.<br>
-Can be applied to both Char and Charset<br>
+aka Quantifiers, wrritten only post char/charset.<br><br>
+Can be applied to both Char and Charset<br><br>
 Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
 
 ### Capturing Groups
-Uses`()` to create a match and capture the chars together. Ex - `(ab)*`<br>
-Can use altenations inside of it as `(c|r|m|e|f)at`<br>
+Uses`()` to create a match and capture the chars together. Ex - `(ab)*`<br><br>
+Can use altenations inside of it as `(c|r|m|e|f)at`<br><br>
 [Example#0](https://www.regexpal.com/?fam=116976)
 
 ### Non-Capturing Groups
