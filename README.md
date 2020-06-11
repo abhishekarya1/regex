@@ -1,5 +1,5 @@
 # Regex
-Learning regex and solving a ton of problems from various sources.
+Learning regex and solving problems from various sources.
 
 ## Web Resources
 - [Regex For Noobs (like me!) - An Illustrated Guide - Janmeppe](https://www.janmeppe.com/blog/regex-for-noobs/)
