@@ -37,5 +37,6 @@ Checkout Running notes and examples [here](https://github.com/abhishekarya1/rege
 - [Regular Expressions Cheat Sheet by DaveChild](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
 
 ## Resource Lists & References
+- [RexEgg](https://www.rexegg.com/)
 - [regular-expressions.info](https://www.regular-expressions.info/)
 - [Awesome Regex - GitHub](https://github.com/aloisdg/awesome-regex)
