@@ -17,9 +17,14 @@ Checkout Running notes and examples [here](https://github.com/abhishekarya1/rege
 - [Regex Dojo](https://www.shortcutfoo.com/app/dojos/regex)
 - [Regex Crossword](https://regexcrossword.com/)
 
-## Testing Regex
-- [RegexPal](https://www.regexpal.com/)
-- [Regex101](https://regex101.com/)
+## Testing and Visualisation
+- Match Testing
+  - [RegexPal](https://www.regexpal.com/)
+  - [Regex101](https://regex101.com/)
+  <br>
+- Visualisation
+  - [Regexper](https://regexper.com/)
+  - [Debuggex](https://www.debuggex.com/)
 
 ## Interesting Stuff
 - [My favorite regex of all time](https://catonmat.net/my-favorite-regex)
