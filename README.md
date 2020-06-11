@@ -29,6 +29,7 @@ Checkout Running notes and examples [here](https://github.com/abhishekarya1/rege
 ## Interesting Stuff
 - [My favorite regex of all time](https://catonmat.net/my-favorite-regex)
 - [Regex that only matches itself](https://codegolf.stackexchange.com/questions/28821/regex-that-only-matches-itself/31863#31863)
+- [The Many Uses of Regex](https://www.rexegg.com/regex-uses.html)
 
 ## Cheat Sheets
 - [Regular Expressions Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
