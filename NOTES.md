@@ -69,13 +69,13 @@ Reserved chars. Use `\` to escape. Ex - `\.`, `*`, etc...
 
 ### Braces
 aka Quantifiers, wrritten only post char/charset.
-- Can be applied to both Char and Charset
-- `{n1,n2}`, `{n1,}`, `{n}`
+Can be applied to both Char and Charset
+Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
 
 ### Capturing Groups
 Uses`()` to create a match and capture the chars together. Ex - `(ab)*`
-- Can use altenations inside of it as `(c|r|m|e|f)at`
-  - [Example#0](https://www.regexpal.com/?fam=116976)
+Can use altenations inside of it as `(c|r|m|e|f)at`
+[Example#0](https://www.regexpal.com/?fam=116976)
 
 ### Non-Capturing Groups
 Uses `?` followed by a `:` within `()` to create a match but not capture the chars. Ex - `(?:c|r|m|e|f)at`
@@ -83,7 +83,7 @@ Uses `?` followed by a `:` within `()` to create a match but not capture the cha
 ### Alternation `|`
 Works like OR logical operator
 <details>
-  <summary>Question: Isn't `[Tt]he` same as `(T|t)he`?</summary>
+  <summary>Question: Isn't [Tt]he same as (T|t)he?</summary>
   
   Ans: In the above case it's the same. But, alternations work at expression level and charset at char level only.
   We can alter between expressions using `|` as `abhi(shek|manyu)` but not as `abhi[shekmanyu]`.
