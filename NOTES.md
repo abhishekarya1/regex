@@ -68,13 +68,13 @@ Reserved chars. Use `\` to escape. Ex - `\.`, `*`, etc...
     - [Example#0](https://www.regexpal.com/?fam=116974)
 
 ### Braces
-aka Quantifiers, wrritten only post char/charset.
-Can be applied to both Char and Charset
+aka Quantifiers, wrritten only post char/charset.<br>
+Can be applied to both Char and Charset<br>
 Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
 
 ### Capturing Groups
-Uses`()` to create a match and capture the chars together. Ex - `(ab)*`
-Can use altenations inside of it as `(c|r|m|e|f)at`
+Uses`()` to create a match and capture the chars together. Ex - `(ab)*`<br>
+Can use altenations inside of it as `(c|r|m|e|f)at`<br>
 [Example#0](https://www.regexpal.com/?fam=116976)
 
 ### Non-Capturing Groups
