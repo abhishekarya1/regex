@@ -81,8 +81,8 @@ Uses`()` to create a match and capture the chars together. Ex - `(ab)*`
 Uses `?` followed by a `:` within `()` to create a match but not capture the chars. Ex - `(?:c|r|m|e|f)at`
 
 ### Alternation `|`
-- Works like OR logical operator
-- <details>
+Works like OR logical operator
+<details>
   <summary>Question: Isn't `[Tt]he` same as `(T|t)he`?</summary>
   
   Ans: In the above case it's the same. But, alternations work at expression level and charset at char level only.
