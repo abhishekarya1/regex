@@ -4,18 +4,18 @@ Regex pronunciation: "Redj-ex"
 
 ## Regex in programming languages
 
-C++11 onwards (\<regex\> header), Python, Java, Javascript, PHP, Java, etc...
+C++11 onwards (`\<regex\>` header), Python, Java, Javascript, PHP, Java, etc...
 
 ### C++ 
 
-Regex is written in the form of a string inside double-quotes ("")
+Regex is written in the form of a string inside double-quotes (`""`)
 
 ```cpp
 regex foo("Geek[a-zA-Z]+"); //foo is the object of regex 
 ```
 ### Javascript & Ruby
 
-Regex is written within forward slashes (/regex/)
+Regex is written within forward slashes (`/regex/`)
 
 ```js
 var str = 'cat';
@@ -29,15 +29,15 @@ if (str.match(/x/)) {
 ```
 
 ## Basic Match
-- [Example#0](https://www.regexpal.com/?fam=116958)
+[Example#0](https://www.regexpal.com/?fam=116958)
 
 ## Meta Characters
 Reserved chars. Use `\` to escape. Ex - `\.`, `*`, etc...
 
 ### Dot `.`
-- Matches a single character only (except newline char `\n`)
-  - [Example#0](https://www.regexpal.com/?fam=116959)
-  - [Example#1](https://www.regexpal.com/?fam=116960)
+Matches a single character only (except newline char `\n`)<br><br>
+[Example#0](https://www.regexpal.com/?fam=116959)<br><br>
+[Example#1](https://www.regexpal.com/?fam=116960)
   
 ### Character Set
 - aka Character Class
