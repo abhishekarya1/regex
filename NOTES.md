@@ -36,15 +36,15 @@ Reserved chars. Use `\` to escape. Ex - `\.`, `*`, etc...
 
 ### Dot `.`
 Matches a single character only (except newline char `\n`)<br><br>
-[Example#0](https://www.regexpal.com/?fam=116959)<br><br>
+[Example#0](https://www.regexpal.com/?fam=116959)<br>
 [Example#1](https://www.regexpal.com/?fam=116960)
   
 ### Character Set
-- aka Character Class
-- Specified inside square brackets `[]`
+aka Character Class<br><br>
+Specified inside square brackets `[]`
   - No Space : [Example#0](https://www.regexpal.com/?fam=116961)
   - Hyphen : [Example#1](https://www.regexpal.com/?fam=116971)
-= A dot `.` inside a Char class means a literal dot `.`
+A dot `.` inside a Char class means a literal dot `.`
   -[Example#0](https://www.regexpal.com/?fam=116963)
   -[Example#1](https://www.regexpal.com/?fam=116964)
   
