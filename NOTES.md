@@ -82,7 +82,7 @@ Can use altenations inside of it as `(c|r|m|e|f)at`<br><br>
 Uses `?` followed by a `:` within `()` to create a match but not capture the chars. Ex - `(?:c|r|m|e|f)at`
 
 ### Alternation `|`
-Works like OR logical operator
+Works like logical OR operator
 <details>
   <summary>Question: Isn't [Tt]he same as (T|t)he?</summary>
   
@@ -90,3 +90,22 @@ Works like OR logical operator
   We can alter between expressions using `|` as `abhi(shek|manyu)` but not as `abhi[shekmanyu]`.
   
 </details> 
+
+### Escaping Special Characters
+Prepend a special char with a backslash `\` to use it as a matching char.
+
+### Anchors
+Caret `^` and Dollar `$`
+- Caret `^` used to specify start symbol of the input string. Ex - String that starts with T is matched by `^T`
+- Dollar `$` used to specify terminating symbol of the input string. Ex - String that ends with e is matched by `e$`
+
+### Shorthand Character Sets
+|Shorthand|Description|
+|:----:|----|
+|.|Any character except new line|
+|\w|Matches alphanumeric characters: `[a-zA-Z0-9_]`|
+|\W|Matches non-alphanumeric characters: `[^\w]`|
+|\d|Matches digits: `[0-9]`|
+|\D|Matches non-digits: `[^\d]`|
+|\s|Matches whitespace characters: `[\t\n\f\r\p{Z}]`|
+|\S|Matches non-whitespace characters: `[^\s]`|
