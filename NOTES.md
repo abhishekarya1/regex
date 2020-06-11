@@ -44,10 +44,10 @@ aka Character Class<br><br>
 Specified inside square brackets `[]`
   - No Space : [Example#0](https://www.regexpal.com/?fam=116961)
   - Hyphen : [Example#1](https://www.regexpal.com/?fam=116971)
-<br><br>
+<br>
 A dot `.` inside a Char class means a literal dot `.`
-  -[Example#0](https://www.regexpal.com/?fam=116963)
-  -[Example#1](https://www.regexpal.com/?fam=116964)
+  - [Example#0](https://www.regexpal.com/?fam=116963)
+  - [Example#1](https://www.regexpal.com/?fam=116964)
   
 ### Negated Character Sets
 - Any char/charset written within `[]` and preceded by `^` will be negated.
