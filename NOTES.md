@@ -45,6 +45,7 @@ Specified inside square brackets `[]`
   - No Space : [Example#0](https://www.regexpal.com/?fam=116961)
   - Hyphen : [Example#1](https://www.regexpal.com/?fam=116971)
 <br>
+
 A dot `.` inside a Char class means a literal dot `.`
   - [Example#0](https://www.regexpal.com/?fam=116963)
   - [Example#1](https://www.regexpal.com/?fam=116964)
