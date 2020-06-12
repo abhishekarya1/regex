@@ -173,4 +173,4 @@ Also known as "Modifiers"
 |:----:|----|
 |i|Case insensitive: Match will be case-insensitive.|
 |g|Global Search: Match all instances, not just the first.|
-|m|Multiline: Anchor meta characters work on each line.|
+|m|Multiline: Anchor meta characters work on each line. By default, the `$` is at the end of the whole input, but `m` flag forces it at every line end|
