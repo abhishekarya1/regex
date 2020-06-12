@@ -165,11 +165,11 @@ Also note that backreferences match the same text as most recently matched by th
 
 ---
 ### Lookarounds
-Also called "Assertions"
+Also called "Assertions".
 <br>
-Two types: **Lookaheads** and **Lookbehinds**
+Two types: **Lookaheads** and **Lookbehinds**.
 <br>
-They are non-capturing
+They are non-capturing.
 <br>
 |Symbol|Name|Description|
 |:----:|----|----|
@@ -180,9 +180,9 @@ They are non-capturing
 
 ---
 ### Flags
-Also known as "Modifiers"
-<br>Heavily dependent on regex engine being used
-<br><br>
+Also known as "Modifiers".
+<br>Heavily dependent on regex engine being used.
+<br>
 |Flag|Description|
 |:----:|----|
 |i|Case insensitive: Match will be case-insensitive.|
@@ -191,7 +191,7 @@ Also known as "Modifiers"
 
 ---
 ### Greedy vs Lazy Matching
-Use `?` with any of the six quantifiers to match in a lazy way
+Use `?` with any of the six quantifiers to match in a lazy way.
 <br>
 Good explaination [here](https://javascript.info/regexp-greedy-and-lazy).
 <br>
@@ -200,3 +200,4 @@ Good example [here](https://stackoverflow.com/questions/2301285/what-do-lazy-and
 ---
 
 <img src="https://i.imgur.com/xmAPOyT.png" width="180">
+![lastupdatedbadge](https://img.shields.io/badge/Last%20Updated-12--06--2020-success)
