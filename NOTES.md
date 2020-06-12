@@ -140,7 +140,7 @@ When we make a capture group, regex engine references the result implicitly in a
 [Example#0](https://www.regexpal.com/?fam=116999)
 <br><br>
 Note that capturing is neccessary for backreferening to happen and work.
-Also note that backreferences match the same text as most recently matched by the capturing group they reference (i.e. its result) and not the group pattern.<br>
+Also note that backreferences match the same text as most recently matched by the capturing group they reference (i.e. its resultant match `33`) and not just the group pattern `\d\d`.<br>
 [Example#1](https://regex101.com/r/iMkVk7/1)
 
 **Backreferences to failed groups:** Concept and important distinction [here](https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem). First example is "b participated but failed, the result was then captured using `()`", second example is "never participated at all" since the entire group was optional, it skipped checking match for `(b)` group altogether.
