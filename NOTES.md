@@ -119,13 +119,33 @@ Denoted by `\b`, in most regex dialects, is a position between \w and \W (non-wo
 Note that `^` and `$` are also word boundries as start and end of input respectively.<br>
 Also note that `\b`and `\B` matches without consuming any char.
 <br><br>
-**Non-Word Boundry**: Matches, without consuming any characters, at the position between two characters matched by `\w`.
+**Non-Word Boundry:**: Matches, without consuming any characters, at the position between two characters matched by `\w`.
 <br>[Example#1](https://regex101.com/r/NtXJY8/1)
 
 ### Backrefernces
-When we make a capture group, regex engine references it implicitly in a first occurance order and we can use that reference with `\ref_num`to use it again<br>
+When we make a capture group, regex engine references the result implicitly in a first occurance order and we can use that reference with `\ref_num`to use it again<br>
 [Example#0](https://www.regexpal.com/?fam=116999)
 <br><br>
 Note that capturing is neccessary for backreferening to happen and work.
+Also note that backreferences match the same text as most recently matched by the capturing group they reference (i.e. its result) and not the group pattern.
+[Example#1](https://regex101.com/r/iMkVk7/1)
 
-**Backreferences to failed groups**: Concept and important distinction [here](https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem). First example is "b participated but failed, the result was then captured using `()`", second example is "never participated at all" since the entire group was optional, it skipped checking match for (b) group altogether.
+**Backreferences to failed groups:** Concept and important distinction [here](https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem). First example is "b participated but failed, the result was then captured using `()`", second example is "never participated at all" since the entire group was optional, it skipped checking match for (b) group altogether.
+
+
+### Branch Reset Groups*
+*Branch reset group is supported by Perl, PHP, Delphi and R*
+<br><br>
+**Syntax:**`(?|(regex1)|(regex2)|(regex3)|.....)`
+<br><br>
+**Explanation:** It allows us to branch/choose from among `regex1`, `regex2`, `regex3`, any one, capture the result one time and reference it later on. Note that the `(?|regex)` itself counts as one occurance.
+[Example#0](https://www.hackerrank.com/challenges/branch-reset-groups/problem)
+
+### Forward References*
+*Forward reference is supported by JGsoft, .NET, Java, Perl, PCRE, PHP, Delphi and Ruby*
+<br><br>
+**Explanation:** It allow you to use a backreference to a group that appears later in the regex. Forward references are obviously only useful if they’re inside a repeated group.
+[Example#0](https://www.regular-expressions.info/backref2.html#forward)
+[Example#1](https://www.hackerrank.com/challenges/branch-reset-groups/problem)
+
+### 
