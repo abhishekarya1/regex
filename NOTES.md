@@ -200,4 +200,6 @@ Good example [here](https://stackoverflow.com/questions/2301285/what-do-lazy-and
 ---
 
 <img src="https://i.imgur.com/xmAPOyT.png" width="180">
+
+<img src="https://img.shields.io/badge/Completed-12--06--2020-blue">
 <img src="https://img.shields.io/badge/Last%20Updated-12--06--2020-success">
