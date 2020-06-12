@@ -76,8 +76,8 @@ Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
 
 ### Capturing Groups
 Uses`()` to create a match and capture the chars together. Ex - `(ab)*`<br><br>
-Can use altenations inside of it as `(c|r|m|e|f)at`<br><br>
-[Example#0](https://www.regexpal.com/?fam=116976)
+Can use altenations inside of it as `(c|r|m|e|f)at`: [Example#0](https://www.regexpal.com/?fam=116976)<br><br>
+Grouping: [Example#1](https://www.regexpal.com/?fam=116997)
 
 ### Non-Capturing Groups
 Uses `?` followed by a `:` within `()` to create a match but not capture the chars. Ex - `(?:c|r|m|e|f)at`
@@ -111,3 +111,13 @@ Caret `^` and Dollar `$`
 |\D|Matches non-digits: `[^\d]`|
 |\s|Matches whitespace characters: `[\t\n\f\r\p{Z}]`|
 |\S|Matches non-whitespace characters: `[^\s]`|
+
+### Word Boundaries
+Denoted by `\b`, in most regex dialects, is a position between \w and \W (non-word char), or at the beginning or end of a string if it begins or ends (respectively) with a word character (`[0-9A-Za-z_]`). So, in the string "-12" , it would match before the 1 or after the 2. The dash is not a word character.<br>
+[Example#0](https://regex101.com/r/5zYI7K/1)
+<br><br>
+Note that `^` and `$` are also word boundries as start and end of input respectively.<br>
+Also note that `\b`and `\B` matches without consuming any char.
+<br><br>
+Non-Word Boundry: Matches, without consuming any characters, at the position between two characters matched by \w.
+<br>[Example#1](https://regex101.com/r/NtXJY8/1)
