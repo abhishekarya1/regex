@@ -119,5 +119,13 @@ Denoted by `\b`, in most regex dialects, is a position between \w and \W (non-wo
 Note that `^` and `$` are also word boundries as start and end of input respectively.<br>
 Also note that `\b`and `\B` matches without consuming any char.
 <br><br>
-Non-Word Boundry: Matches, without consuming any characters, at the position between two characters matched by \w.
+**Non-Word Boundry**: Matches, without consuming any characters, at the position between two characters matched by `\w`.
 <br>[Example#1](https://regex101.com/r/NtXJY8/1)
+
+### Backrefernces
+When we make a capture group, regex engine references it implicitly in a first occurance order and we can use that reference with `\ref_num`to use it again<br>
+[Example#0](https://www.regexpal.com/?fam=116999)
+<br><br>
+Note that capturing is neccessary for backreferening to happen and work.
+
+**Backreferences to failed groups**: Concept and important distinction [here](https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem). First example is "b participated but failed, the result was then captured using `()`", second example is "never participated at all" since the entire group was optional, it skipped checking match for (b) group altogether.
