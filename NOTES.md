@@ -82,12 +82,12 @@ Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
 
 ---
 ### Capturing Groups
-Uses`()` to create a match and capture the chars together. Ex - `(ab)*`<br><br>
+Uses `()` to create a group and capture the match. Ex - `(ab)*`<br><br>
 Can use altenations inside of it as `(c|r|m|e|f)at`: [Example#0](https://www.regexpal.com/?fam=116976)<br><br>
 Grouping: [Example#1](https://www.regexpal.com/?fam=116997)
 
 ### Non-Capturing Groups
-Uses `?` followed by a `:` within `()` to create a match but not capture the chars. Ex - `(?:c|r|m|e|f)at`
+Uses `?` followed by a `:` within `()` to create a group but not capture the match. Ex - `(?:c|r|m|e|f)at`
 
 ---
 ### Alternation `|`
