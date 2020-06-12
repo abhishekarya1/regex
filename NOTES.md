@@ -151,7 +151,7 @@ Also note that backreferences match the same text as most recently matched by th
 <br><br>
 **Syntax:**`(?|(regex1)|(regex2)|(regex3)|.....)`
 <br><br>
-**Explanation:** It allows us to branch/choose from among `regex1`, `regex2`, `regex3` capture groups, any one, capture the result one time and reference it later on. Note that the `(?|regex)` itself counts as one occurance of the selected single capture group.
+**Explanation:** It allows us to branch/choose from among `regex1`, `regex2`, `regex3` capture groups, any one, capture the result one time and reference it later on. Note that the `(?|regex)` itself counts as one occurance of the chosen matched single capture group.
 <br>
 [Example#0](https://www.hackerrank.com/challenges/branch-reset-groups/problem)
 
@@ -161,7 +161,7 @@ Also note that backreferences match the same text as most recently matched by th
 <br><br>
 **Explanation:** It allow you to use a backreference to a group that appears later in the regex. Forward references are obviously only useful if they’re inside a repeated group.<br>
 [Example#0](https://www.regular-expressions.info/backref2.html#forward)<br>
-[Example#1](https://www.hackerrank.com/challenges/branch-reset-groups/problem)
+[Example#1](https://www.hackerrank.com/challenges/forward-references/problem)
 
 ---
 ### Lookarounds
