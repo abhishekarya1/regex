@@ -166,3 +166,11 @@ They are non-capturing
 <br><br>
 
 ### Flags
+Also known as "Modifiers"
+<br>Heavily dependent on regex engine being used
+<br><br>
+|Flag|Description|
+|:----:|----|
+|i|Case insensitive: Match will be case-insensitive.|
+|g|Global Search: Match all instances, not just the first.|
+|m|Multiline: Anchor meta characters work on each line.|
