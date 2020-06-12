@@ -44,6 +44,7 @@ aka Character Class<br><br>
 Specified inside square brackets `[]`
   - No Space : [Example#0](https://www.regexpal.com/?fam=116961)
   - Hyphen : [Example#1](https://www.regexpal.com/?fam=116971)
+  - Both of the above: [Example#2](https://www.regexpal.com/?fam=116994)
   
 A dot `.` inside a Char class means a literal dot `.`
   - [Example#0](https://www.regexpal.com/?fam=116963)
@@ -52,7 +53,7 @@ A dot `.` inside a Char class means a literal dot `.`
 ### Negated Character Sets
 Any char/charset written within `[]` and preceded by `^` will be negated.
   - `[^c]ar` : [Example#0](https://www.regexpal.com/?fam=116965)
-  - `[^ctpj]` : [Example#1](https://www.regexpal.com/?fam=116966)
+  - `[^ctpj]` : [Example#1](https://www.regexpal.com/?fam=116995)
   
 ### Repetitions
 Symbols `*`, `+`, and `?`
@@ -69,7 +70,7 @@ Symbols `*`, `+`, and `?`
     - [Example#0](https://www.regexpal.com/?fam=116974)
 
 ### Braces
-aka Quantifiers, wrritten only post char/charset.<br><br>
+aka "Quantifiers", written only post char/charset.<br><br>
 Can be applied to both Char and Charset<br><br>
 Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
 
@@ -87,7 +88,7 @@ Works like logical OR operator
   <summary>Question: Isn't [Tt]he same as (T|t)he?</summary>
   
   Ans: In the above case it's the same. But, alternations work at expression level and charset at char level only.
-  We can alter between expressions using `|` as `abhi(shek|manyu)` but not as `abhi[shekmanyu]`.
+  We can alter between expressions (multiple-chars/string) using `|` as `abhi(shek|manyu)` but not as `abhi[shekmanyu]`.
   
 </details> 
 
