@@ -200,4 +200,4 @@ Good example [here](https://stackoverflow.com/questions/2301285/what-do-lazy-and
 ---
 
 <img src="https://i.imgur.com/xmAPOyT.png" width="180">
-![lastupdatedbadge](https://img.shields.io/badge/Last%20Updated-12--06--2020-success)
+<img src="https://img.shields.io/badge/Last%20Updated-12--06--2020-success">
