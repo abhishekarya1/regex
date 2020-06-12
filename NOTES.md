@@ -149,4 +149,20 @@ Also note that backreferences match the same text as most recently matched by th
 [Example#0](https://www.regular-expressions.info/backref2.html#forward)<br>
 [Example#1](https://www.hackerrank.com/challenges/branch-reset-groups/problem)
 
-### 
+### Lookarounds
+Also called "Assertions"
+<br>
+Two types: **Lookaheads** and **Lookbehinds**
+<br>
+They are non-capturing
+<br>
+|Symbol|Name|Description|
+|:----:|----|----|
+|(?= )|Positive Lookahead|Used on RHS of main regex|
+|(?! )|Negative Lookahead|"|
+|(?<= )|Positive Lookbehind|Used on LHS of main regex|
+|(?<! )|Negative Lookbehind|"|
+
+<br><br>
+
+### Flags
