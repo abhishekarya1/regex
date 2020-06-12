@@ -52,15 +52,16 @@ Specified inside square brackets `[]`
 A dot `.` inside a Char class means a literal dot `.`
   - [Example#0](https://www.regexpal.com/?fam=116963)
   - [Example#1](https://www.regexpal.com/?fam=116964)
-  
----  
-### Negated Character Sets
+    
+#### Negated Character Set
 Any char/charset written within `[]` and preceded by `^` will be negated.
   - `[^c]ar` : [Example#0](https://www.regexpal.com/?fam=116965)
   - `[^ctpj]` : [Example#1](https://www.regexpal.com/?fam=116995)
 
 ---
-### Repetitions
+### Quantifiers
+
+#### Repetitions
 Symbols `*`, `+`, and `?`
   - Asterisk `*` : No. of occurances of char/charset preceding it must be >=0 
     - On single char : [Example#0](https://www.regexpal.com/?fam=116967)
@@ -74,8 +75,7 @@ Symbols `*`, `+`, and `?`
     - Makes the preceding character optional.It matches zero or one instance of the preceding character. If character is there, it matches whole word, if not, then it matches remainning word other than optional char. 
     - [Example#0](https://www.regexpal.com/?fam=116974)
 
----
-### Braces
+#### Ranges 
 aka "Quantifiers", written only post char/charset.<br><br>
 Can be applied to both Char and Charset<br><br>
 Usage Styles : `{n1,n2}`, `{n1,}`, `{n}`
@@ -102,14 +102,14 @@ Works like logical OR operator
 
 ---
 ### Escaping Special Characters
-Prepend a special char with a backslash `\` to use it as a matching char.
+Prepend a special/meta character with a backslash `\` to use it as a matching char.
 
 ---
 ### Anchors
 Caret `^` and Dollar `$`
-- Caret `^` used to specify start symbol of the input string. Ex - String that starts with T is matched by `^T`
-- Dollar `$` used to specify terminating symbol of the input string. Ex - String that ends with e is matched by `e$`
-  - Anchors are expression level. Ex - To look for all files having `.pdf` extensions, we can use: `\.pdf$`
+- Caret `^` used to specify start position of the input string. It does not matches the character but position at the start of the input. Ex - String input that starts with T is matched by `^T`
+- Dollar `$` used to specify used to specify start position of the input string. It does not matches the character but position at the end of the input. Ex - String that ends with e is matched by `e$`
+- `\b` and `\B` are non-character consuming anchors too.
 
 ---
 ### Shorthand Character Sets
@@ -191,8 +191,6 @@ Also known as "Modifiers"
 
 ---
 ### Greedy vs Lazy Matching
-**Greedy Matching:** Tries to match as much as possible
-<br>
 Use `?` with any of the six quantifiers to match in a lazy way
 <br>
 Good explaination [here](https://javascript.info/regexp-greedy-and-lazy).
@@ -200,3 +198,5 @@ Good explaination [here](https://javascript.info/regexp-greedy-and-lazy).
 Good example [here](https://stackoverflow.com/questions/2301285/what-do-lazy-and-greedy-mean-in-the-context-of-regular-expressions).
 
 ---
+
+<img src="https://i.imgur.com/xmAPOyT.png" width="180">
