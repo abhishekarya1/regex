@@ -15,7 +15,6 @@ Checkout Running notes and examples [here](https://github.com/abhishekarya1/rege
 - [RegexGolf](https://alf.nu/RegexGolf)
 - [RegexOne](https://regexone.com/)
 - [Regex101 - Quiz](https://regex101.com/quiz)
-- [Regex Dojo](https://www.shortcutfoo.com/app/dojos/regex)
 - [Regex Crossword](https://regexcrossword.com/)
 
 ## Testing and Visualisation
