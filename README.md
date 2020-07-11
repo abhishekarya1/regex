@@ -27,6 +27,7 @@ Checkout Running notes and examples [here](https://github.com/abhishekarya1/rege
   - [Debuggex](https://www.debuggex.com/)
 
 ## Interesting Stuff
+- [TNW - Javascript regular expressions aren't that daunting — here's how to design your own](https://thenextweb.com/syndication/2020/07/11/javascript-regular-expressions-arent-that-daunting-heres-how-to-design-your-own/)
 - [My favorite regex of all time](https://catonmat.net/my-favorite-regex)
 - [Regex that only matches itself](https://codegolf.stackexchange.com/questions/28821/regex-that-only-matches-itself/31863#31863)
 - [The Many Uses of Regex](https://www.rexegg.com/regex-uses.html)
